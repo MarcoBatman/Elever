@@ -2,14 +2,15 @@ Elev elev1 = new Elev("Lea",12);
 Elev elev2 = new Elev("Henrik",02); 
 Elev elev3 = new Elev("Carl",4); 
 Elev elev4 = new Elev("Bent",-3); 
-Elev elev5 = new Elev("Ole",7); 
+Elev elev5 = new Elev("Ole",7);
+Elev elev6 = new Elev("Benjamin",00);
 void setup(){
  elev1.udskrivElev();
  elev2.udskrivElev();
  elev3.udskrivElev();
  elev4.udskrivElev();
  elev5.udskrivElev();
-
+ elev6.udskrivElev();
 }
 
 class Elev{
